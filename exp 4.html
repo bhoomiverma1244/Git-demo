@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0>
+        <title><hotel room booking form></title>
+        </head>
+        <body>
+            <h1>Hotel Room Booking Form</h1>
+<form action="#" method="post">
+    <!-- personal information -->
+     <label for="Name">full name:</label>
+     <input type="text" id="Name" name="Name" required>
+     <br><br>
+     <label for="email">Email</label>
+     <input type="email" id="email" name="email" required>
+<br><br>
+<label for="phone">Phone number:</label>
+<input type="tel" id="phone" name="phone" required>
+<br><br>
+<!--booking details -->
+<label for="checkin">checkin date:</label>
+<input type="date" id="checkin" name="checkin" required>
+<br><br>
+<label for="checkout">check out date:</label>
+<input type=" date" id="checkout" name="checkout" required>
+<br><br>
+<label for="guests"><number of guests</label>
+<input type="number" id="guests" name="guests" min="1" max="10" required>
+<br><br>
+<label for="room">room type:</label>
+<select id="room" name="room"required>
+    <option value="single">single room</option>
+    <option value="double">double room</option>
+    <option value="suite">suite</option>
+</select>
+</fieldset>
+<br><br>
+<fieldset>
+    <legend>additional services</legend>
+    <label for="requests">special requests:</label>
+    <textarea id="requests" name="rquests" rows="4" cols="50"><</textarea>
+</fieldset>
+<br><br>
+<!-- buttons -->
+ <button type="submit">book now</button>
+ <button type="reset">reset</button>
+  </form>
+ </body>
+ </html>
